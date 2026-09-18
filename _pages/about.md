@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://www.khu.ac.kr/eng/user/main/view.do'> Department of Applied Mathematics, Kyung Hee University</a>.
 
