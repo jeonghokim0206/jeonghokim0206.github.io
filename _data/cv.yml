@@ -108,6 +108,13 @@ cv:
         awarder: Samsung Science and Technology Foundation
         summary: SSTF-BA2401-01
 
+        - title: Research grant
+        authors:
+          - "National Research Foundation of Korea"
+        date : 2026.09~2031.08
+        awarder: National Research Foundation of Korea
+        summary: RS-2026-25590471
+
 
 
     Languages:
