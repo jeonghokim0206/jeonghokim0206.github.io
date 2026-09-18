@@ -28,54 +28,54 @@ cv:
         url: https://snu.ac.kr/index.html
         area: Mathematics
         studyType: PhD
-        start_date: 2016
-        end_date: 2019
+        start_date: "2016.03"
+        end_date: "2019.08"
 
       - institution: Seoul National University
         location: Seoul, Republic of Korea
         area: Mathematics
         studyType: B.S.
-        start_date: 2012
-        end_date: 2016
+        start_date: "2012.03"
+        end_date: "2016.02"
 
       - institution: Seoul National University
         location: Seoul, Republic of Korea
         area: Economics
         studyType: B.S.
-        start_date: 2012
-        end_date: 2016
+        start_date: "2012.03"
+        end_date: "2016.02"
 
 
     Experience:
       - company: Kyung Hee University
         position: Assistant Professor
         location: Yongin, Republic of Korea
-        start_date: 2022
+        start_date: "2022.09"
         end_date: present
 
       - company: Korea Institute for Advanced Study
         position: CMC fellow
         location: Seoul, Republic of Korea
-        start_date: 2022
-        end_date: 2022
+        start_date: "2022.03"
+        end_date: "2022.08"
 
       - company: Research Institute for Natural Science, Hanyang University
         position: Postdoc researcher
         location: Seoul, Republic of Korea
-        start_date: 2021
-        end_date: 2022
+        start_date: "2021.03"
+        end_date: "2022.02"
 
       - company: Institute of New Media and Communications, Seoul National University
         position: Postdoc researcher
         location: Seoul, Republic of Korea
-        start_date: 2019
-        end_date: 2021
+        start_date: "2019.09"
+        end_date: "2021.02"
 
     Awards:
       - title: International Research Training Group (IRTG) 2235 Program
         authors:
           - "Deutsche Forschungsgemeinschaft"
-        date: 2016-09-01 ~ 2019-08-01
+        date: 2016.09.01 ~ 2019.08.01
         awarder: Deutsche Forschungsgemeinschaft
         url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
         summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
@@ -111,7 +111,7 @@ cv:
         - title: Research grant
         authors:
           - "Samsung Science and Technology Foundation"
-        date: 2024 ~ 2027
+        date: 2024.06 ~ 2027.05
         awarder: Samsung Science and Technology Foundation
         summary: SSTF-BA2401-01
 
