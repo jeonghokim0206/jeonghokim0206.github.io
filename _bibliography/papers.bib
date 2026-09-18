@@ -1,13 +1,55 @@
 @comment{
   papers.bib for al-folio (jeonghokim0206.github.io)
-  Custom al-folio fields used:
-    abbr        : short venue badge shown on the left
-    doi         : DOI button
-    arxiv       : arXiv identifier only (link is generated automatically)
-    html        : link button when no DOI is available
-    bibtex_show : shows the "Bib" button
-    selected    : {true} => appears in "selected publications" on the home page
-  Entries are ordered newest first; the site sorts by year automatically.
+
+  아래는 al-folio 가 인식하는 모든 필드를 넣은 항목 견본입니다.
+  실제 항목에 필드를 추가할 때 여기서 줄을 복사해 쓰세요.
+  값이 비어 있는 필드는 항목에 넣지 마세요 (빈 값도 깨진 버튼을 만듭니다).
+
+  article 견본:
+    title             = {논문 제목},
+    author            = {Kim*, J. and Coauthor, A.},   * 는 교신저자 표시, 뜻은 annotation 에
+    journal           = {SIAM J. Math. Anal.},         프로시딩은 booktitle
+    volume            = {58},
+    issue             = {1},                           number 로 적어도 됨
+    pages             = {547--597},                    Article No. 79 같은 형식도 가능
+    numpages          = {51},
+    year              = {2026},
+    month             = {Jan},
+    publisher         = {SIAM},
+    location          = {Philadelphia},                저널명 뒤에 붙어 표시됨
+    abbr              = {SIMA},                        항목 왼쪽의 저널 약칭 뱃지
+    abstract          = {초록 전문},                    Abs 버튼
+    doi               = {10.1137/25M1732295},          DOI 버튼 (식별자만)
+    arxiv             = {2502.01063},                  arXiv 버튼 (식별자만)
+    url               = {https://doi.org/...},         Bib 팝업 안에만 표시
+    html              = {https://...},                 HTML 버튼
+    pdf               = {han2026composite.pdf},        PDF 버튼, 파일은 assets/pdf/ 에 업로드
+    poster            = {han2026composite_poster.pdf}, Poster 버튼, assets/pdf/
+    slides            = {han2026composite_slides.pdf}, Slides 버튼, assets/pdf/
+    supp              = {han2026composite_supp.pdf},   Supp 버튼, assets/pdf/
+    code              = {https://github.com/...},      Code 버튼
+    website           = {https://...},                 Website 버튼
+    blog              = {https://...},                 Blog 버튼
+    video             = {https://www.youtube-nocookie.com/embed/...},  Video 버튼
+    dimensions        = {true},                        Dimensions 피인용 배지 (DOI 있으면 true)
+    altmetric         = {true},                        Altmetric 배지 (DOI 있으면 true)
+    google_scholar_id = {qyhmnyLat1gC},                Scholar 배지. 프로필에서 논문 클릭 후
+                                                       주소의 citation_for_view=사용자ID:논문ID 중
+                                                       콜론 뒤. _data/socials.yml 의 scholar_userid 도 필요
+    inspirehep_id     = {3255},                        INSPIRE-HEP 배지 (고에너지물리 전용, 해당 없음)
+    preview           = {han2026composite.png},        썸네일, 그림은 assets/img/publication_preview/ 에 업로드
+    selected          = {true},                        홈 화면 selected publications 에 노출
+    additional_info   = {마크다운 문장},                저널명 뒤에 덧붙는 문장
+    annotation        = {* Corresponding author},      저자 위첨자 설명 말풍선
+    note              = {To appear},                   저널 줄 아래 한 줄로 표시
+    bibtex_show       = {true}                         Bib 버튼
+
+  관련 설정 (_config.yml):
+    max_author_limit:                 비워 두면 저자 전원 표시 (기본값 3 은 3명 초과 시 접힘)
+    enable_publication_thumbnails     preview 썸네일 표시 스위치
+    enable_publication_badges         altmetric / dimensions / google_scholar / inspirehep 배지 스위치
+    scholar: last_name, first_name    본인 이름 밑줄 표시
+  권·호·페이지 표시는 _includes/hook/bib.liquid 파일이 담당합니다.
 }
 
 @comment{ ===================== Submitted ===================== }
