@@ -1,9 +1,153 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# _data/venues.yml — 논문 목록의 저널 약칭(abbr) 뱃지 색과 링크
+# 키는 papers.bib 의 abbr 값과 정확히 같아야 합니다 (대소문자·점·공백 포함).
+# 색은 출판사별로 묶었습니다: SIAM 파랑, Elsevier 주황, Springer 초록, World Scientific 청록,
+# AIMS 보라, AIP 진분홍, IEEE 하늘, Cambridge 빨강, Wiley 갈색, 프리프린트 회색.
+# color 를 지우면 사이트 기본색, url 을 지우면 링크 없는 뱃지가 됩니다.
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Preprint":
+  color: "#9e9e9e"
 
-"Vision":
-  color: "#009f36"
+"SIMA":
+  url: https://epubs.siam.org/journal/sjmaah
+  color: "#1a4f8b"
+
+"JDE":
+  url: https://www.sciencedirect.com/journal/journal-of-differential-equations
+  color: "#cf6a1f"
+
+"Phys. D":
+  url: https://www.sciencedirect.com/journal/physica-d-nonlinear-phenomena
+  color: "#cf6a1f"
+
+"CNSNS":
+  url: https://www.sciencedirect.com/journal/communications-in-nonlinear-science-and-numerical-simulation
+  color: "#cf6a1f"
+
+"JCAM":
+  url: https://www.sciencedirect.com/journal/journal-of-computational-and-applied-mathematics
+  color: "#cf6a1f"
+
+"JMAA":
+  url: https://www.sciencedirect.com/journal/journal-of-mathematical-analysis-and-applications
+  color: "#cf6a1f"
+
+"JCP":
+  url: https://www.sciencedirect.com/journal/journal-of-computational-physics
+  color: "#cf6a1f"
+
+"ZAMP":
+  url: https://link.springer.com/journal/33
+  color: "#2e7d32"
+
+"CMP":
+  url: https://link.springer.com/journal/220
+  color: "#2e7d32"
+
+"JSC":
+  url: https://link.springer.com/journal/10915
+  color: "#2e7d32"
+
+"JEE":
+  url: https://link.springer.com/journal/28
+  color: "#2e7d32"
+
+"ARMA":
+  url: https://link.springer.com/journal/205
+  color: "#2e7d32"
+
+"JNS":
+  url: https://link.springer.com/journal/332
+  color: "#2e7d32"
+
+"BBMS":
+  url: https://link.springer.com/journal/574
+  color: "#2e7d32"
+
+"JSP":
+  url: https://link.springer.com/journal/10955
+  color: "#2e7d32"
+
+"JMFM":
+  url: https://link.springer.com/journal/21
+  color: "#2e7d32"
+
+"Cogn. Comput.":
+  url: https://link.springer.com/journal/12559
+  color: "#2e7d32"
+
+"M3AS":
+  url: https://www.worldscientific.com/worldscinet/m3as
+  color: "#00838f"
+
+"Anal. Appl.":
+  url: https://www.worldscientific.com/worldscinet/aa
+  color: "#00838f"
+
+"KRM":
+  url: https://www.aimsciences.org/journal/1937-5093
+  color: "#7b1fa2"
+
+"CPAA":
+  url: https://www.aimsciences.org/journal/1534-0392
+  color: "#7b1fa2"
+
+"DCDS":
+  url: https://www.aimsciences.org/journal/1078-0947
+  color: "#7b1fa2"
+
+"DCDS-B":
+  url: https://www.aimsciences.org/journal/1531-3492
+  color: "#7b1fa2"
+
+"NHM":
+  url: https://www.aimsciences.org/journal/1556-1801
+  color: "#7b1fa2"
+
+"JMP":
+  url: https://pubs.aip.org/aip/jmp
+  color: "#c2185b"
+
+"IEEE TAC":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9
+  color: "#0288d1"
+
+"IEEE Access":
+  url: https://ieeeaccess.ieee.org/
+  color: "#0288d1"
+
+"CDC":
+  color: "#0288d1"
+
+"EJAM":
+  url: https://www.cambridge.org/core/journals/european-journal-of-applied-mathematics
+  color: "#b71c1c"
+
+"SAPM":
+  url: https://onlinelibrary.wiley.com/journal/14679590
+  color: "#5d4037"
+
+"CMS":
+  color: "#8d6e63"
+
+"QAM":
+  url: https://www.ams.org/journals/qam/
+  color: "#3949ab"
+
+"Nonlinearity":
+  url: https://iopscience.iop.org/journal/0951-7715
+  color: "#263238"
+
+"JKSIAM":
+  color: "#43a047"
+
+"JMLR":
+  url: https://jmlr.org/
+  color: "#00695c"
+
+"L4DC":
+  url: https://proceedings.mlr.press/v120/
+  color: "#00695c"
+
+"RIMS":
+  url: https://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/
+  color: "#546e7a"
