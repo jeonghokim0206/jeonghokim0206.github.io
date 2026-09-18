@@ -75,7 +75,7 @@ cv:
       - title: International Research Training Group (IRTG) 2235 Program
         authors:
           - "Deutsche Forschungsgemeinschaft"
-        date: 2016.09.-2019.08.
+        date: 2016.09.~2019.08.
         awarder: Deutsche Forschungsgemeinschaft
         url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
         summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
@@ -111,7 +111,7 @@ cv:
       - title: Research grant
         authors:
           - "Samsung Science and Technology Foundation"
-        date: 2024.06-2027.05
+        date: 2024.06.~2027.05.
         awarder: Samsung Science and Technology Foundation
         summary: SSTF-BA2401-01
 
