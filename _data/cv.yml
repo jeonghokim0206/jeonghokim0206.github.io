@@ -94,21 +94,21 @@ cv:
         awarder: Korea Student Aid Foundation
         summary: Awarded for outstanding scientific achievement
 
-        - title: Best doctoral degree thesis award
+      - title: Best doctoral degree thesis award
         authors:
           - "College of Natural Sciences, Seoul National University"
         date: 2019
         awarder: College of Natural Sciences, Seoul National University
         summary: Awarded for outstanding scientific achievement
 
-        - title: Grand prize, 9th S-Oil best doctoral degree thesis award
+      - title: Grand prize, 9th S-Oil best doctoral degree thesis award
         authors:
           - "S-Oil"
         date: 2019
         awarder: S-Oil
         summary: Awarded for outstanding scientific achievement
 
-        - title: Research grant
+      - title: Research grant
         authors:
           - "Samsung Science and Technology Foundation"
         date: 2024.06 ~ 2027.05
