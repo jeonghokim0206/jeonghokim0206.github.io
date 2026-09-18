@@ -24,7 +24,6 @@ cv:
   sections:
     Education:
       - institution: Seoul National University
-        location: Seoul, Republic of Korea
         url: https://snu.ac.kr/index.html
         area: Mathematics
         studyType: PhD
@@ -32,14 +31,12 @@ cv:
         end_date: "2019.08"
 
       - institution: Seoul National University
-        location: Seoul, Republic of Korea
         area: Mathematics
         studyType: B.S.
         start_date: "2012.03"
         end_date: "2016.02"
 
       - institution: Seoul National University
-        location: Seoul, Republic of Korea
         area: Economics
         studyType: B.S.
         start_date: "2012.03"
@@ -49,25 +46,21 @@ cv:
     Experience:
       - company: Kyung Hee University
         position: Assistant Professor
-        location: Yongin, Republic of Korea
         start_date: "2022.09"
         end_date: present
 
       - company: Korea Institute for Advanced Study
         position: CMC fellow
-        location: Seoul, Republic of Korea
         start_date: "2022.03"
         end_date: "2022.08"
 
       - company: Research Institute for Natural Science, Hanyang University
         position: Postdoc researcher
-        location: Seoul, Republic of Korea
         start_date: "2021.03"
         end_date: "2022.02"
 
       - company: Institute of New Media and Communications, Seoul National University
         position: Postdoc researcher
-        location: Seoul, Republic of Korea
         start_date: "2019.09"
         end_date: "2021.02"
 
