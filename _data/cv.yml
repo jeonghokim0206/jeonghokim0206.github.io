@@ -93,9 +93,9 @@ cv:
         awarder: College of Natural Sciences, Seoul National University
         summary: Awarded for outstanding scientific achievement
 
-      - title: Grand prize, 9th S-Oil best doctoral degree thesis award
+      - title: Grand prize, 9th S-OIL best doctoral degree thesis award
         authors:
-          - "S-Oil"
+          - "S-OIL Science and Culture Foundation"
         date: 2019
         awarder: S-Oil
         summary: Awarded for outstanding scientific achievement
@@ -128,11 +128,3 @@ cv:
         icon: fa-solid fa-tag
         keywords: "Compressible fluid, Incompressible fluid, Kinetic theory, Numerical analysis"
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
