@@ -69,36 +69,31 @@ cv:
           - "Deutsche Forschungsgemeinschaft"
         date : 2016.09~2019.08
         awarder: Deutsche Forschungsgemeinschaft
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+        url: https://irtg.math.uni-bielefeld.de/
 
       - title: Summa Cum Laude
         authors:
           - "Seoul National University"
         date: 2016
         awarder: Seoul National University
-        summary: Awarded for outstanding scientific achievement
 
       - title: Korea National Scholarship for Natural Science and Engineering
         authors:
           - "Korea Student Aid Foundation"
         date: 2012
         awarder: Korea Student Aid Foundation
-        summary: Awarded for outstanding scientific achievement
 
       - title: Best doctoral degree thesis award
         authors:
           - "College of Natural Sciences, Seoul National University"
         date: 2019
         awarder: College of Natural Sciences, Seoul National University
-        summary: Awarded for outstanding scientific achievement
 
       - title: Grand prize, 9th S-OIL best doctoral degree thesis award
         authors:
           - "S-OIL Science and Culture Foundation"
         date: 2019
-        awarder: S-Oil
-        summary: Awarded for outstanding scientific achievement
+        awarder: S-OIL Science and Culture Foundation
 
       - title: Research grant
         authors:
