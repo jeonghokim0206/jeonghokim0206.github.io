@@ -9,6 +9,15 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
+<!-- 연도가 없는 항목(예: Preprints)의 빈 연도 소제목을 숨김 -->
+<style>
+  h1.bibliography:empty,
+  h2.bibliography:empty,
+  h3.bibliography:empty {
+    display: none;
+  }
+</style>
+
 <!-- Bibsearch Feature -->
 
 {% include bib_search.liquid %}
