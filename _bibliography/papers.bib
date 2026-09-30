@@ -60,6 +60,16 @@
     - 이 값이 없는 항목은 "" 로 취급되어 맨 위에 이름 없는 그룹으로 따로 떨어져 나오니,
       새 논문을 추가할 때마다 반드시 둘 중 하나를 넣어야 함.
     - 값의 철자를 바꾸면(대소문자 포함) 알파벳 순서가 바뀔 수 있으니 그대로 사용 권장.
+
+  Preprints 항목의 year 필드 규칙:
+    - status = {Preprints} 인 항목에는 year 필드를 아예 넣지 않는다 (완전히 줄 자체를 삭제).
+    - year 를 넣지 않아도 al-folio 는 에러 없이 그냥 연도를 표시하지 않고 넘어감 (검증됨).
+    - 효과: (1) 항목 줄이 "Submitted, 2026" 대신 그냥 "Submitted" 로 표시됨
+            (2) Preprints 섹션 안에 연도별 소제목이 따로 안 생기고 통째로 한 목록으로 나옴
+    - 나중에 논문이 출판되면: status 를 Publications 로 바꾸고, year/volume/pages/doi 등을
+      정식 정보로 채워 넣으면 됨 (이때는 year 를 반드시 다시 넣어야 함).
+    - _pages/publications.md 에 "연도 소제목이 비어 있으면 숨긴다"는 CSS 한 줄이 있어야
+      빈 소제목 줄이 안 남음 (아래 참고).
 }
 
 @comment{ ===================== Submitted ===================== }
@@ -69,7 +79,6 @@
   author      = {Ko, D. and Kim, J. and Min, C. and Lee, B.},
   journal     = {Submitted},
   status      = {Preprints},
-  year        = {2026},
   abbr        = {Preprint},
   abstract    = {We propose an energy-compatible monolithic discretization for fluid-solid interaction (FSI) problems involving a rigid body immersed in an incompressible viscous fluid. The coupled system is formulated on a single computational domain using a Heaviside representation of the fluid--solid interface. The proposed method is designed to preserve the energy structure of the continuous problem at the discrete level. In particular, we develop a temporal discretization that leads to a symmetric saddle-point system and establish a discrete energy identity in which the viscous dissipation is the only source of energy decay. For the spatial discretization, we employ a Marker-and-Cell (MAC) grid and construct the discrete differential operators that satisfy the discrete integration-by-parts property. This allows the energy stability of the temporal discretization to be extended to the fully discrete scheme. To advance the moving solid, we further introduce a kinematic reconstruction procedure based on a semi-Lagrangian predictor-corrector approach and update the solid configuration consistently with the computed translational and rotational velocities. Numerical experiments demonstrate the stability and accuracy of the proposed method for representative FSI problems, including the motion of a freely falling rigid body.},
   bibtex_show = {true}
@@ -80,7 +89,6 @@
   author      = {Kim, J. and Ko, D. and Min, C. and Lee, B.},
   journal     = {Submitted},
   status      = {Preprints},
-  year        = {2026},
   abbr        = {Preprint},
   bibtex_show = {true},
   preview     = {kim2026hodge.png}
@@ -91,7 +99,6 @@
   author      = {Kim, J. and Moon, B.},
   journal     = {Submitted},
   status      = {Preprints},
-  year        = {2026},
   abbr        = {Preprint},
   bibtex_show = {true},
   preview     = {kim2026fourier.png}
@@ -102,7 +109,6 @@
   author      = {Eun, N. and Kang, M.-J. and Kim, J.},
   journal     = {Submitted},
   status      = {Preprints},
-  year        = {2026},
   abbr        = {Preprint},
   arxiv       = {2602.13788},
   url         = {https://arxiv.org/abs/2602.13788},
@@ -115,7 +121,6 @@
   author      = {Kim, J. and Moon, B.},
   journal     = {Submitted},
   status      = {Preprints},
-  year        = {2026},
   abbr        = {Preprint},
   arxiv       = {2604.07710},
   url         = {https://arxiv.org/abs/2604.07710},
@@ -128,7 +133,6 @@
   author      = {Kim, J.},
   journal     = {Submitted},
   status      = {Preprints},
-  year        = {2026},
   abbr        = {Preprint},
   arxiv       = {2608.17617},
   url         = {https://arxiv.org/abs/2608.17617},
@@ -141,7 +145,6 @@
   author      = {Kim, J. and Yun, S.-B.},
   journal     = {Submitted},
   status      = {Preprints},
-  year        = {2026},
   abbr        = {Preprint},
   bibtex_show = {true}
 }
@@ -151,7 +154,6 @@
   author      = {Eun, N. and Han, S. and Kim, J.},
   journal     = {Submitted},
   status      = {Preprints},
-  year        = {2026},
   abbr        = {Preprint},
   arxiv       = {2609.20591},
   url         = {https://arxiv.org/abs/2609.20591},
