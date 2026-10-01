@@ -46,7 +46,7 @@ nav_order: 10
     font-size: 1.05rem;
     font-weight: 600;
     margin: 0 0 0.3rem;
-    color: #b509ac; /* 사이트 테마가 쓰는 보라색(al-folio 기본 accent color)과 동일한 값 */
+    color: var(--global-theme-color); /* 사이트 테마의 강조색 변수: 라이트모드=보라, 다크모드=시안으로 자동 전환 */
   }
   .links-page .link-card:hover .link-name {
     text-decoration: underline;
