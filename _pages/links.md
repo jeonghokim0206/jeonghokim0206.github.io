@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /links/
-title: links
+title: Links
 description: Collaborators, colleagues, and sites worth bookmarking.
 nav: true
 nav_order: 10
