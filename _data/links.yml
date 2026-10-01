@@ -1,0 +1,27 @@
+# _data/links.yml
+#
+# "Links" 페이지에 들어갈 목록. category 별로 묶어서 카드로 표시됨.
+# 아래 예시 항목들은 지우고 실제 동료/협력자/관심 사이트로 교체하세요.
+# url 과 name 은 필수, description 은 없으면 그냥 빼도 됩니다.
+
+categories:
+  - name: Collaborators
+    items:
+      - name: "예시) Hong Gildong"
+        url: "https://example.com"
+        description: "소속대학 교수, 공동연구 분야"
+      - name: "예시) Jane Doe"
+        url: "https://example.com"
+        description: "소속대학, 관계(공저자/지도교수 등)"
+
+  - name: Labs & groups
+    items:
+      - name: "예시) ABC Research Group"
+        url: "https://example.com"
+        description: "한 줄 설명"
+
+  - name: Useful sites
+    items:
+      - name: "예시) arXiv"
+        url: "https://arxiv.org"
+        description: "한 줄 설명"
