@@ -5,14 +5,35 @@
 # url 과 name 은 필수, description 은 없으면 그냥 빼도 됩니다.
 
 categories:
-  - name: Collaborators
+  - name: People
     items:
-      - name: "예시) Hong Gildong"
-        url: "https://example.com"
-        description: "소속대학 교수, 공동연구 분야"
-      - name: "예시) Jane Doe"
-        url: "https://example.com"
-        description: "소속대학, 관계(공저자/지도교수 등)"
+      - name: "Young-Pil Choi"
+        url: "https://sites.google.com/site/youngpilc/"
+        description: "Department of Mathematics, Yonsei University"
+      - name: "Jinwook Jung"
+        url: "https://jinwookjung12.wordpress.com/"
+        description: "Department of Mathematics, Hanyang University"
+      - name: "Moon-Jin Kang"
+        url: "https://sites.google.com/site/moonjinkang81/"
+        description: "Department of Mathematical Sciences, KAIST"
+      - name: "Seung-Yeal Ha"
+        url: "https://www.math.snu.ac.kr/~syha/"
+        description: "Department of Mathematical Sciences, Seoul National University"
+      - name: "Dongnam Ko"
+        url: "https://dongnamko.wordpress.com/"
+        description: "Department of Mathematics, The Catholic University of Korea"
+      - name: "Dohyun Kim"
+        url: "https://sites.google.com/view/dohyunkimath/home"
+        description: "Department of Mathematics Education, Sungkyunkwan University"
+      - name: "Byungjoon Lee"
+        url: "https://leebyungjoon.wordpress.com/research/"
+        description: "Department of Mathematics, The Catholic University of Korea"
+      - name: "Chohong Min"
+        url: "http://math.ewha.ac.kr/~chohong/"
+        description: "Department of Mathematics, Ewha Womans University"
+      - name: "Jinyeong Park"
+        url: "https://jinyeongpark.com/"
+        description: "Department of Mathematics, Hanyang University"
 
   - name: Labs & groups
     items:
