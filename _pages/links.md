@@ -12,7 +12,6 @@ nav_order: 10
   내용은 전부 _data/links.yml 에서 가져옵니다.
   새 사람/사이트를 추가하려면 코드를 건드릴 필요 없이
   _data/links.yml 에 name / url / description 세 줄만 추가하면 됩니다.
-  (title 도 다른 페이지처럼 "Links" 로 대문자화 해뒀습니다.)
 -->
 
 <style>
@@ -35,6 +34,8 @@ nav_order: 10
     background: rgba(128, 128, 128, 0.06);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 2px 10px rgba(0, 0, 0, 0.04);
     transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+    color: inherit;
+    text-decoration: none;
   }
   .links-page .link-card:hover {
     transform: translateY(-3px);
@@ -45,12 +46,9 @@ nav_order: 10
     font-size: 1.05rem;
     font-weight: 600;
     margin: 0 0 0.3rem;
+    color: #b509ac; /* 사이트 테마가 쓰는 보라색(al-folio 기본 accent color)과 동일한 값 */
   }
-  .links-page .link-name a {
-    color: inherit;
-    text-decoration: none;
-  }
-  .links-page .link-name a:hover {
+  .links-page .link-card:hover .link-name {
     text-decoration: underline;
   }
   .links-page .link-desc {
@@ -66,14 +64,12 @@ nav_order: 10
     <div class="row row-cols-1 row-cols-md-2 g-3 mb-2">
       {% for item in category.items %}
         <div class="col">
-          <div class="link-card">
-            <p class="link-name">
-              <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>
-            </p>
+          <a class="link-card" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+            <p class="link-name">{{ item.name }}</p>
             {% if item.description %}
               <p class="link-desc">{{ item.description }}</p>
             {% endif %}
-          </div>
+          </a>
         </div>
       {% endfor %}
     </div>
