@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I got a 5 years long research grang from National Research Foundation of Korea (Basic Research A) :fireworks:
+I got a 5 years long research grant from National Research Foundation of Korea (Basic Research A) :fireworks:
