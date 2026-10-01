@@ -19,6 +19,9 @@ categories:
       - name: "Seung-Yeal Ha"
         url: "https://www.math.snu.ac.kr/~syha/"
         description: "Department of Mathematical Sciences, Seoul National University"
+      - name: "Jin Woo Jang"
+        url: "https://sites.google.com/view/jangjinw"
+        description: "Department of Mathematics, POSTECH"   
       - name: "In-Jee Jeong"
         url: "https://sites.google.com/view/injeejeong/home"
         description: "School of Mathematics, KIAS"
@@ -28,6 +31,9 @@ categories:
       - name: "Dohyun Kim"
         url: "https://sites.google.com/view/dohyunkimath/home"
         description: "Department of Mathematics Education, Sungkyunkwan University"
+      - name: "Junha Kim"
+        url: "https://rlawnsgk02.wixsite.com/math/publications"
+        description: "Department of Mathematics, Ajou University"
       - name: "Byungjoon Lee"
         url: "https://leebyungjoon.wordpress.com/research/"
         description: "Department of Mathematics, The Catholic University of Korea"
@@ -37,7 +43,6 @@ categories:
       - name: "Jinyeong Park"
         url: "https://jinyeongpark.com/"
         description: "Department of Mathematics, Hanyang University"
-
   - name: Labs & groups
     items:
       - name: "예시) ABC Research Group"
