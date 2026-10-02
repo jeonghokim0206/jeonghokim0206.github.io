@@ -15,8 +15,8 @@
 # 아래는 예시 한 개입니다. 이 블록을 복사해서 실제 발표 내용으로 바꾸고,
 # 추가 발표가 생기면 똑같은 모양으로 맨 위에 하나씩 더 붙이면 됩니다.
 
-- title: "예시: Asymptotic stability of composite waves for the Navier-Stokes-Korteweg system"
-  venue: "East Asian Workshop on Mathematical Fluid Dynamics and PDEs"
-  date: "2026.11"
-  location: "Seoul, Korea"
+- title: "Spherically symmetric stationary solutions to the Navier-Stokes-Korteweg equations"
+  venue: <a href="https://sites.google.com/view/pdesinmotion2026/home?authuser=0">PDEs in Motion</a>
+  date: "2026.09.09"
+  location: "KIAS, Seoul, Korea"
   slides_url: ""
