@@ -24,12 +24,6 @@ nav_order: 11
     margin-bottom: 0.85rem;
     background: rgba(128, 128, 128, 0.06);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 2px 10px rgba(0, 0, 0, 0.04);
-    transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
-  }
-  .talks-page .talk-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
-    background: rgba(128, 128, 128, 0.1);
   }
   .talks-page .talk-date {
     flex: 0 0 auto;
