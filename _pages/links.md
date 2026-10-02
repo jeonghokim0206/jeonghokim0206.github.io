@@ -21,7 +21,7 @@ nav_order: 10
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--global-text-color-light);
-    margin: 2.25rem 0 1.25rem;
+    margin: 2.25rem 0 1rem;
   }
   .links-page .category-title:first-of-type {
     margin-top: 0.25rem;
@@ -30,7 +30,7 @@ nav_order: 10
     display: block;
     height: 100%;
     border-radius: 16px;
-    padding: 1.4rem 1.6rem;
+    padding: 1.15rem 1.35rem;
     background: rgba(128, 128, 128, 0.06);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 2px 10px rgba(0, 0, 0, 0.04);
     transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
@@ -45,7 +45,7 @@ nav_order: 10
   .links-page .link-name {
     font-size: 1.05rem;
     font-weight: 600;
-    margin: 0 0 0.4rem;
+    margin: 0 0 0.3rem;
     color: var(--global-theme-color); /* 사이트 테마의 강조색 변수: 라이트모드=보라, 다크모드=시안으로 자동 전환 */
   }
   .links-page .link-card:hover .link-name {
@@ -61,7 +61,7 @@ nav_order: 10
 <div class="links-page">
   {% for category in site.data.links.categories %}
     <h2 class="category-title">{{ category.name }}</h2>
-    <div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
+    <div class="row row-cols-1 row-cols-md-2 g-3 mb-5">
       {% for item in category.items %}
         <div class="col">
           <a class="link-card" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
