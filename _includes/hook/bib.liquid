@@ -19,6 +19,14 @@
    먼저 entrytype 뒤에 직접 붙여 버리고, 뒤에서 또 한 번 붙지 않도록
    entryyear/entrymonth 를 빈 값으로 비워 둠. keywords 가 없는 논문은
    이 부분을 건너뛰므로 원래 동작 그대로임.)
+
+  (태그 링크의 href 는 소문자로 바꿔서(downcase) 넣음. al-folio 의 검색 스크립트
+   (assets/js/bibsearch.js, highlight-search-term.js) 가 URL의 #단어 를 그대로
+   받아서 비교하는데, 비교 대상 글(본문) 은 전부 소문자로 바꿔서 비교하면서
+   #단어 쪽은 소문자로 안 바꿔주는 구조라서, "Asymptotic stability" 처럼
+   대문자가 섞인 태그는 매칭이 안 되는 문제가 있었음. 그래서 화면에 보이는
+   배지 글자는 원래 대/소문자 그대로 두고, 링크의 #뒤 부분만 소문자로 바꿔서
+   이 문제를 피함.)
 {%- endcomment -%}
 
 {%- if entry.type == 'article' or entry.type == 'inproceedings' or entry.type == 'incollection' -%}
@@ -52,7 +60,7 @@
         {%- assign tag_trimmed = tag | strip -%}
         {%- if tag_trimmed != '' -%}
           <a
-            href="{{ '/publications/' | relative_url }}#{{ tag_trimmed | replace: ' ', '%20' }}"
+            href="{{ '/publications/' | relative_url }}#{{ tag_trimmed | downcase | replace: ' ', '%20' }}"
             class="tag-badge"
             style="display:inline-block; margin:0 4px 2px 0; padding:1px 9px; border-radius:999px;
                    font-size:0.72rem; font-weight:500; text-decoration:none;
