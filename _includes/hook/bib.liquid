@@ -52,7 +52,7 @@
         {%- assign tag_trimmed = tag | strip -%}
         {%- if tag_trimmed != '' -%}
           <a
-            href="{{ '/publications/' | relative_url }}#{{ tag_trimmed | url_encode }}"
+            href="{{ '/publications/' | relative_url }}#{{ tag_trimmed | replace: ' ', '%20' }}"
             class="tag-badge"
             style="display:inline-block; margin:0 4px 2px 0; padding:1px 9px; border-radius:999px;
                    font-size:0.72rem; font-weight:500; text-decoration:none;
