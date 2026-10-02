@@ -18,6 +18,8 @@
     publisher         = {SIAM},
     location          = {Philadelphia},                저널명 뒤에 붙어 표시됨
     abbr              = {SIMA},                        항목 왼쪽의 저널 약칭 뱃지
+    keywords          = {Korteweg, Asymptotic stability, Shock waves},  콤마로 구분, 작은 태그 배지로 표시
+                                                       (각 태그 클릭 시 /publications/ 에서 그 단어로 자동 필터링됨)
     abstract          = {초록 전문},                    Abs 버튼
     doi               = {10.1137/25M1732295},          DOI 버튼 (식별자만)
     arxiv             = {2502.01063},                  arXiv 버튼 (식별자만)
@@ -70,6 +72,20 @@
       정식 정보로 채워 넣으면 됨 (이때는 year 를 반드시 다시 넣어야 함).
     - _pages/publications.md 에 "연도 소제목이 비어 있으면 숨긴다"는 CSS 한 줄이 있어야
       빈 소제목 줄이 안 남음 (아래 참고).
+
+  keywords 필드 (태그) 사용법:
+    - 콤마(,)로 구분해서 원하는 만큼 적으면 됨. 예:
+        keywords = {Navier-Stokes-Korteweg, Asymptotic stability, Composite waves}
+    - 띄어쓰기 있는 태그(예: "viscous shock")도 그대로 써도 됨.
+    - 같은 단어를 여러 논문에 똑같이 쓰면, 그 태그를 눌렀을 때 관련 논문들이
+      한꺼번에 필터링되어 나옴 (예: "Navier-Stokes-Korteweg" 태그를 쓴 논문이 여러 개면,
+      그중 아무거나 하나를 눌러도 전부 다 같이 걸러짐).
+    - 표기를 통일하는 게 중요함 (예: "NSK" 와 "Navier-Stokes-Korteweg" 를 섞어 쓰면
+      서로 다른 태그로 취급되어 따로 묶임) — 태그 이름 목록을 따로 적어두고 복사해서
+      쓰는 걸 추천.
+    - 이 기능은 _includes/hook/bib.liquid 파일이 담당함. 아래 4개 논문
+      (han2026superposition, han2026composite, han2025dispersive, kim2024dirac)
+      에 예시로 넣어뒀으니, 이 모양을 보고 나머지 논문에도 하나씩 채워 넣으면 됨.
 }
 
 @comment{ ===================== Submitted ===================== }
@@ -244,6 +260,7 @@
   pages       = {Article No. 79},
   year        = {2026},
   abbr        = {CMP},
+  keywords    = {Navier-Stokes equations, Asymptotic stability, Wave patterns},
   doi         = {10.1007/s00220-026-05572-x},
   arxiv       = {2502.08126},
   url         = {https://doi.org/10.1007/s00220-026-05572-x},
@@ -264,6 +281,7 @@
   pages       = {547--597},
   year        = {2026},
   abbr        = {SIMA},
+  keywords    = {Navier-Stokes-Korteweg, Composite waves, Asymptotic stability},
   doi         = {10.1137/25M1732295},
   arxiv       = {2502.01063},
   url         = {https://doi.org/10.1137/25M1732295},
@@ -382,6 +400,7 @@
   pages       = {317--387},
   year        = {2025},
   abbr        = {JDE},
+  keywords    = {Navier-Stokes-Korteweg, Viscous-dispersive shock, Asymptotic stability},
   doi         = {10.1016/j.jde.2025.01.070},
   arxiv       = {2402.09751},
   annotation  = {* Corresponding author},
@@ -500,6 +519,7 @@
   pages       = {Article No. 9},
   year        = {2024},
   abbr        = {JSC},
+  keywords    = {Numerical PDE, Dirac equation, Chern-Simons, Finite difference methods},
   doi         = {10.1007/s10915-024-02473-w},
   url         = {https://doi.org/10.1007/s10915-024-02473-w},
   publisher   = {Springer},
