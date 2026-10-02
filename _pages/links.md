@@ -61,7 +61,7 @@ nav_order: 10
 <div class="links-page">
   {% for category in site.data.links.categories %}
     <h2 class="category-title">{{ category.name }}</h2>
-    <div class="row row-cols-1 row-cols-md-2 g-3 mb-5">
+    <div class="row row-cols-1 row-cols-md-2 g-4 mb-2">
       {% for item in category.items %}
         <div class="col">
           <a class="link-card" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
