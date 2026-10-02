@@ -1,0 +1,22 @@
+# _data/talks.yml
+#
+# 초청강연 / 발표 목록입니다.
+# 최신순으로 "맨 위"에 추가해 주세요 — 자동으로 날짜순 정렬되는 게 아니라,
+# 이 파일에 적힌 순서 그대로 화면에 표시됩니다.
+#
+# 필드 설명 (title / venue / date 는 필수, location / slides_url 은 없으면 그냥
+# 줄 자체를 지우거나 "" 로 비워두면 됩니다):
+#   title      : 발표 제목
+#   venue      : 학회 / 세미나 / 기관 이름
+#   date       : "2026.11" 처럼 연.월 형식 (문자열이라 따옴표로 감싸야 함)
+#   location   : 도시, 국가
+#   slides_url : 슬라이드 PDF 등 링크 (없으면 "" 로 비워두면 버튼이 안 뜸)
+#
+# 아래는 예시 한 개입니다. 이 블록을 복사해서 실제 발표 내용으로 바꾸고,
+# 추가 발표가 생기면 똑같은 모양으로 맨 위에 하나씩 더 붙이면 됩니다.
+
+- title: "예시: Asymptotic stability of composite waves for the Navier-Stokes-Korteweg system"
+  venue: "East Asian Workshop on Mathematical Fluid Dynamics and PDEs"
+  date: "2026.11"
+  location: "Seoul, Korea"
+  slides_url: ""
