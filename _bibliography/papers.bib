@@ -90,16 +90,6 @@
 
 @comment{ ===================== Submitted ===================== }
 
-@article{ko2026FSI,
-  title       = {An energy-compatible symmetric monolithic method for fluid-solid interaction},
-  author      = {Ko, D. and Kim, J. and Min, C. and Lee, B.},
-  journal     = {Submitted},
-  status      = {Preprints},
-  keywords    = {Fluid-Solid interaction, Finite difference method},
-  abbr        = {Preprint},
-  abstract    = {We propose an energy-compatible monolithic discretization for fluid-solid interaction (FSI) problems involving a rigid body immersed in an incompressible viscous fluid. The coupled system is formulated on a single computational domain using a Heaviside representation of the fluid--solid interface. The proposed method is designed to preserve the energy structure of the continuous problem at the discrete level. In particular, we develop a temporal discretization that leads to a symmetric saddle-point system and establish a discrete energy identity in which the viscous dissipation is the only source of energy decay. For the spatial discretization, we employ a Marker-and-Cell (MAC) grid and construct the discrete differential operators that satisfy the discrete integration-by-parts property. This allows the energy stability of the temporal discretization to be extended to the fully discrete scheme. To advance the moving solid, we further introduce a kinematic reconstruction procedure based on a semi-Lagrangian predictor-corrector approach and update the solid configuration consistently with the computed translational and rotational velocities. Numerical experiments demonstrate the stability and accuracy of the proposed method for representative FSI problems, including the motion of a freely falling rigid body.},
-  bibtex_show = {true}
-}
 
 @article{kim2026hodge,
   title       = {A stable and convergent monolithic {Hodge} decomposition for fluid-solid interaction in octree grids},
@@ -117,7 +107,7 @@
   author      = {Kim, J. and Moon, B.},
   journal     = {Submitted},
   status      = {Preprints},
-  keywords    = {Pseudospectral Fourier method, Chern-Simons-Dirac equation},
+  keywords    = {Pseudospectral Fourier methods, Chern-Simons, Dirac equation},
   abbr        = {Preprint},
   bibtex_show = {true},
   preview     = {kim2026fourier.png}
@@ -142,7 +132,7 @@
   journal     = {Submitted},
   status      = {Preprints},
   abbr        = {Preprint},
-  keywords    = {Chern-Simons-Higgs, Hydrodynamic limit},
+  keywords    = {Chern-Simons, Hydrodynamic limit},
   arxiv       = {2604.07710},
   url         = {https://arxiv.org/abs/2604.07710},
   abstract    = {We study the hydrodynamic limit of the Chern–Simons–Higgs system, a relativistic gauge field model involving the Chern–Simons interaction. We introduce a single scaling parameter capturing both the non-relativistic (infinite speed of light) and semi-classical (vanishing Planck constant) regimes. This unified scaling allows us to justify the simultaneous non-relativistic and semi-classical limit, while retaining the nontrivial influence of the Chern–Simons gauge structure. Using a modulated energy method, we establish quantitative convergence rates toward the corresponding compressible Euler–Chern–Simons system as the scaling parameter tends to zero.},
@@ -185,6 +175,18 @@
   preview     = {eun2026mkdvb.png}
 }
 
+@article{ko2026FSI,
+  title       = {An energy-compatible symmetric monolithic method for fluid-solid interaction},
+  author      = {Ko, D. and Kim, J. and Min, C. and Lee, B.},
+  journal     = {Submitted},
+  status      = {Preprints},
+  keywords    = {Fluid-Solid interaction, Finite difference methods},
+  abbr        = {Preprint},
+  abstract    = {We propose an energy-compatible monolithic discretization for fluid-solid interaction (FSI) problems involving a rigid body immersed in an incompressible viscous fluid. The coupled system is formulated on a single computational domain using a Heaviside representation of the fluid--solid interface. The proposed method is designed to preserve the energy structure of the continuous problem at the discrete level. In particular, we develop a temporal discretization that leads to a symmetric saddle-point system and establish a discrete energy identity in which the viscous dissipation is the only source of energy decay. For the spatial discretization, we employ a Marker-and-Cell (MAC) grid and construct the discrete differential operators that satisfy the discrete integration-by-parts property. This allows the energy stability of the temporal discretization to be extended to the fully discrete scheme. To advance the moving solid, we further introduce a kinematic reconstruction procedure based on a semi-Lagrangian predictor-corrector approach and update the solid configuration consistently with the computed translational and rotational velocities. Numerical experiments demonstrate the stability and accuracy of the proposed method for representative FSI problems, including the motion of a freely falling rigid body.},
+  bibtex_show = {true}
+}
+
+
 @comment{ ===================== Journal papers ===================== }
 
 @article{han2026outflow,
@@ -196,6 +198,7 @@
   volume      = {487},
   pages       = {114811},
   abbr        = {JDE},
+  keywords    = {Navier-Stokes-Korteweg equations, Stability, Outflow problem},
   doi         = {10.1016/j.jde.2026.114811},
   arxiv       = {2606.14247},
   url         = {https://doi.org/10.1016/j.jde.2026.114811},
@@ -213,6 +216,7 @@
   pages       = {135364},
   year        = {2026},
   abbr        = {Phys. D},
+  keywords    = {Navier-Stokes-Korteweg equations, Radially symmetric, Stationary solution},
   doi         = {10.1016/j.physd.2026.135364},
   arxiv       = {2605.07610},
   url         = {https://doi.org/10.1016/j.physd.2026.135364},
@@ -232,6 +236,7 @@
   pages       = {1613--1652},
   year        = {2026},
   abbr        = {SIMA},
+  keywords    = {BGK model, Aggregation-diffusion equation},
   doi         = {10.1137/25M1753401},
   arxiv       = {2504.05674},
   url         = {https://doi.org/10.1137/25M1753401},
@@ -250,6 +255,7 @@
   pages       = {Article No. 123},
   year        = {2026},
   abbr        = {ZAMP},
+  keywords    = {Navier-Stokes-Korteweg equations, Incompressible fluid},
   doi         = {10.1007/s00033-026-02757-1},
   arxiv       = {2507.16295},
   url         = {https://doi.org/10.1007/s00033-026-02757-1},
@@ -268,7 +274,7 @@
   pages       = {Article No. 79},
   year        = {2026},
   abbr        = {CMP},
-  keywords    = {Navier-Stokes equations, Asymptotic stability, Wave patterns},
+  keywords    = {Navier-Stokes equations, Stability, Inflow problem},
   doi         = {10.1007/s00220-026-05572-x},
   arxiv       = {2502.08126},
   url         = {https://doi.org/10.1007/s00220-026-05572-x},
@@ -289,7 +295,7 @@
   pages       = {547--597},
   year        = {2026},
   abbr        = {SIMA},
-  keywords    = {Navier-Stokes-Korteweg, Composite waves, Asymptotic stability},
+  keywords    = {Navier-Stokes-Korteweg equations, Stability},
   doi         = {10.1137/25M1732295},
   arxiv       = {2502.01063},
   url         = {https://doi.org/10.1137/25M1732295},
@@ -309,6 +315,7 @@
   pages       = {109544},
   year        = {2026},
   abbr        = {CNSNS},
+  keywords    = {Microtubule, Collective dynamics},
   doi         = {10.1016/j.cnsns.2025.109544},
   url         = {https://doi.org/10.1016/j.cnsns.2025.109544},
   publisher   = {Elsevier},
@@ -325,6 +332,7 @@
   pages       = {116851},
   year        = {2026},
   abbr        = {JCAM},
+  keywords    = {Chern-Simons, Schrödinger equation, Finite difference methods},
   doi         = {10.1016/j.cam.2025.116851},
   url         = {https://doi.org/10.1016/j.cam.2025.116851},
   publisher   = {Elsevier},
@@ -342,6 +350,7 @@
   pages       = {6361--6402},
   year        = {2025},
   abbr        = {SIMA},
+  keywords    = {BGK model, Tsallis statistics},
   doi         = {10.1137/25M1754510},
   url         = {https://doi.org/10.1137/25M1754510},
   publisher   = {SIAM},
@@ -358,6 +367,7 @@
   pages       = {2797--2829},
   year        = {2025},
   abbr        = {M3AS},
+  keywords    = {Random batch method, Optimal control},
   doi         = {10.1142/S0218202525500514},
   url         = {https://doi.org/10.1142/S0218202525500514},
   publisher   = {World Scientific},
@@ -374,6 +384,7 @@
   pages       = {1383--1424},
   year        = {2025},
   abbr        = {Anal. Appl.},
+  keywords    = {Vlasov-Fokker-Planck equation, Magnetohydrodynamic equations},
   doi         = {10.1142/S0219530525500101},
   url         = {https://doi.org/10.1142/S0219530525500101},
   publisher   = {World Scientific},
@@ -390,6 +401,7 @@
   pages       = {129803},
   year        = {2025},
   abbr        = {JMAA},
+  keywords    = {Navier-Stokes equations, Stability, Inflow problem, Impermeable wall problem},
   doi         = {10.1016/j.jmaa.2025.129803},
   arxiv       = {2405.03214},
   url         = {https://doi.org/10.1016/j.jmaa.2025.129803},
@@ -408,7 +420,7 @@
   pages       = {317--387},
   year        = {2025},
   abbr        = {JDE},
-  keywords    = {Navier-Stokes-Korteweg, Viscous-dispersive shock, Asymptotic stability},
+  keywords    = {Navier-Stokes-Korteweg equations, Stability},
   doi         = {10.1016/j.jde.2025.01.070},
   arxiv       = {2402.09751},
   annotation  = {* Corresponding author},
