@@ -26,6 +26,12 @@ nav_order: 10
   .links-page .category-title:first-of-type {
     margin-top: 0.25rem;
   }
+  .links-page .links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem; /* 카드 사이 간격 — 더 띄우고 싶으면 이 숫자를 키우면 됨 */
+    margin-bottom: 0.5rem;
+  }
   .links-page .link-card {
     display: block;
     height: 100%;
@@ -61,9 +67,9 @@ nav_order: 10
 <div class="links-page">
   {% for category in site.data.links.categories %}
     <h2 class="category-title">{{ category.name }}</h2>
-    <div class="row row-cols-1 row-cols-md-2 g-4 mb-2">
+    <div class="links-grid">
       {% for item in category.items %}
-        <div class="col">
+        <div>
           <a class="link-card" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
             <p class="link-name">{{ item.name }}</p>
             {% if item.description %}
